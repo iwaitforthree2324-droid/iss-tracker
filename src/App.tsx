@@ -16,7 +16,7 @@ function App() {
       const result = await fetchIssPosition();
       setData(result);
     } catch {
-      setError("取得に失敗しました");
+      setError("Failure");
     } finally {
       setLoading(false);
     }
