@@ -3,6 +3,7 @@ import { fetchIssPosition } from "./api/iss";
 import type{ IssPositionResponse } from "./types/iss";
 import { IssMap } from "./components/IssMap";
 import type { CSSProperties } from "react";
+import './App.css';
 
 function App() {
   const [data, setData] = useState<IssPositionResponse | null>(null);
