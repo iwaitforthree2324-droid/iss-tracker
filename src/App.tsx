@@ -22,8 +22,8 @@ function App() {
     }
   };
 
-  const lat = data ? Number(data.iss_position.latitude) : null;
-  const lng = data ? Number(data.iss_position.longitude) : null;
+  const lat = data ? data.latitude : null;
+  const lng = data ? data.longitude : null;
 
 const styles: { container: CSSProperties; card: CSSProperties } = {
   container: {
